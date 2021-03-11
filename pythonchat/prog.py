@@ -3,8 +3,7 @@ import threading
 import sys 
 
 PORT=8080
-SERVER=socket.gethostbyname('mohammadkhakharia.hopto.org')
-ADDR=('192.168.0.102',PORT)
+ADDR=('192.168.0.102',PORT)#replace '192.168.0.102' with the IP of your machine
 FORMAT='utf-8'
 DISCONNECT='quit'
 HEADER=1000
